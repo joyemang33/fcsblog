@@ -111,9 +111,9 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blogposts # blog_name will be displayed in your blog page
+blog_name: Blog # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Blog Posts
+blog_description: My Blog Posts
 permalink: /blog/:title/
 
 # Pagination
@@ -133,18 +133,7 @@ external_sources:
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /news/:path/
-  projects:
-    output: false
-    permalink: /projects/:path/
-
-news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+collections: {}
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
