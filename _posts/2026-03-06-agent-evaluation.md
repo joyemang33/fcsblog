@@ -184,6 +184,6 @@ Second, as the playbook grows, performance does not necessarily improve. In our 
 Finally, a key limitation is **weak credit assignment**. Because the model outputs only code, it is difficult to determine which playbook entries actually contributed to a solution. Future systems may benefit from better attribution or retrieval mechanisms that track which strategies are used and activate only the most relevant knowledge for each task.
 
 <div style="background: #f0f4fa; border-left: 4px solid #4a90d9; padding: 1rem 1.2rem; border-radius: 6px; margin: 1.5rem 0; color: #1a1a1a;">
-📢 Overall, these results suggest that the next generation of evolving-agent systems may depend less on building larger playbooks and more on learning how to construct **more structured, reusable, and selectively activated knowledge**.
-Many discovery problems operate in **online evolutionary settings**: the system repeatedly proposes solutions, receives feedback, and refines future candidates over long horizons. The key capability here is not just producing good solutions, but **learning to improve from experience over time**.
+📢 Overall, these results suggest that the next generation of evolving-agent systems may depend less on building larger playbooks and more on learning how to construct <strong>more structured, reusable, and selectively activated knowledge</strong>.
+Many discovery problems operate in <strong>online evolutionary settings</strong>: the system repeatedly proposes solutions, receives feedback, and refines future candidates over long horizons. The key capability here is not just producing good solutions, but <strong>learning to improve from experience over time</strong>.
 </div>
