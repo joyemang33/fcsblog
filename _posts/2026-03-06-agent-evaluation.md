@@ -120,7 +120,7 @@ A concrete example illustrates this well. On a **polyomino packing** task from F
 
 <div style="text-align: center; margin-bottom: 0;">
   <figure style="margin-bottom: 0;">
-    <img src="{{ 'assets/img/2026-03-06-agent-evaluation/evolution.gif' | relative_url }}" style="width: 55%; border-radius: 6px;" alt="Online Evolution on Polyomino Packing">
+    <img src="{{ 'assets/img/2026-03-06-agent-evaluation/evolution.gif' | relative_url }}" style="width: 40%; border-radius: 6px;" alt="Online Evolution on Polyomino Packing">
     <figcaption style="margin-top: 0.5rem; font-size: 0.9em; font-weight: bold;">Adaptive evolution progressively discovers denser packing strategies on a polyomino task.</figcaption>
   </figure>
 </div>
